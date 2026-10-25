@@ -127,15 +127,17 @@ export const weddingConfig = {
   // Rekening Hadiah Digital (Amplop Digital)
   gifts: [
     {
-      bank: 'Bank BCA',
-      accountNumber: '1234567890',
+      bank: 'Bank Mandiri',
+      accountNumber: '1010012492052',
+      displayNumber: '1010 0124 9205 2',
       holder: 'Kemal Rifian',
       qrImage: null
     },
     {
-      bank: 'Bank Mandiri',
-      accountNumber: '9876543210123',
-      holder: 'Tri Yuli Yanti',
+      bank: 'BRI',
+      accountNumber: '141001001055535',
+      displayNumber: '1410 0100 1055 535',
+      holder: 'Kemal Rifian',
       qrImage: null
     }
   ],
@@ -144,7 +146,7 @@ export const weddingConfig = {
   features: {
     showStory: true,
     showGallery: true,
-    showGift: false, // Dihilangkan sesuai permintaan pengguna
+    showGift: true,
     showWishes: true
   }
 };

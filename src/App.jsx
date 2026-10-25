@@ -5,6 +5,7 @@ import { CoupleProfile } from './components/CoupleProfile';
 import { PhotoGallery } from './components/PhotoGallery';
 import { EventSection } from './components/EventSection';
 import { WishesSection } from './components/WishesSection';
+import { DigitalGift } from './components/DigitalGift';
 import { Footer } from './components/Footer';
 import { MusicPlayer } from './components/MusicPlayer';
 import { useScrollReveal } from './hooks/useScrollReveal';
@@ -63,7 +64,10 @@ export function App() {
         {/* 5. Ucapan & Doa (form nama + pesan, tombol kirim, daftar ucapan lengkap dengan tanggal) - Latar Marun #6B1A2C */}
         <WishesSection showToast={showToast} />
 
-        {/* 6. Footer - Latar Marun Gelap #521321 */}
+        {/* 6. Tanda Kasih / Rekening Hadiah Digital (Mandiri & BRI Kemal Rifian) - Latar Krem #F7F1EA */}
+        <DigitalGift showToast={showToast} />
+
+        {/* 7. Footer - Latar Marun Gelap #521321 */}
         <Footer />
       </main>
 
